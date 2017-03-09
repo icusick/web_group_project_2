@@ -1,0 +1,44 @@
+.header {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: lightgrey;
+  display: flex;
+  position: fixed;
+  top: 0;
+  opacity: .9;
+}
+
+
+.nav-link {
+  width: 100px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-grow: 1;
+  text-decoration: none;
+  align-items: center;
+}
+
+.hero {
+	width: 100%;
+}
+
+.riley {
+	width: 50%;
+	/*display: inline-block;*/
+	height: 473px;
+	
+}
+
+.rileyy {
+	display: flex;
+	flex-direction: row;
+}
+
+.riley-about {
+	display: flex;
+	justify-content: center;
+}
