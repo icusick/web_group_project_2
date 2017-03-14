@@ -126,11 +126,17 @@ footer {
   height: 240px;
 }
 
+/*the following styles will be for the custom order page*/
 
 
-
-
-
+.customize-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  /*align-content: center;*/
+  background-color: #EAE3CC;
+}
 
 
 
