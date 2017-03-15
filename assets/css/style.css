@@ -114,7 +114,7 @@ footer {
 }*/
 
 .footer-address {
-  font-family: Oswald,
+  font-family:Oswald,
   color: white;
 }
 
@@ -136,11 +136,21 @@ footer {
   /*justify-content: center;*/
   /*align-content: center;*/
   background-color: #EAE3CC;
+  font-family:lato;
 }
 
+.customize-labels {
+  color: #996666;
+}
 
-
-
+.customize-it {
+  background-color: #F5A032;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family:Oswald;
+  font-weight: 100;
+}
 
 
 
