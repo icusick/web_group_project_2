@@ -83,6 +83,7 @@ body {
   background-color: #996666;
   color: white;
   font-family:lato;
+  width: 100%;
 }
 
 .custum-about-link{
@@ -124,6 +125,7 @@ footer {
   justify-content: space-around;
   align-items: center;  
   height: 240px;
+  width: 100%;
 }
 
 /*the following styles will be for the custom order page*/
@@ -171,8 +173,64 @@ footer {
 
 /*hours styles*/
 
+
+
 .hours-flex {
   display: flex;
   flex-direction: row;
   /*align-content: stretch;*/
+  /*align-items: stretch;*/
+  /*justify-content: stretch;*/
+  align-items: center;
+  /*justify-content: center;*/
 }
+
+/*why isn't stretch working anywhere!!!!!*/
+
+.hours-flex-item {
+  display: flex;
+  /*align-content: stretch;*/
+  align-items: center;
+  /*align-items: stretch;*/
+  /*align-content: center;*/
+  /*justify-content: stretch;*/
+  width: 50%;
+  /*justify-content: center;*/
+  flex-direction: column;
+  height: 400px;
+}
+
+.hours-flex-content {
+  margin-top: 100px;
+  font-family:lato;
+}
+
+.hours {
+  background-color: #EAE3CC; 
+  /*font-family:lato;*/
+  color: #996666;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.hours-about {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.learn-more {
+  font-style: italic;
+  color: #f4a742;
+}
+
+
+
+
+
+
+
+
+
+
+
+
