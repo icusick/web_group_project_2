@@ -152,7 +152,27 @@ footer {
   font-weight: 100;
 }
 
+/*custom form page styles*/
+
+.custom-form {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  width: 400px;
+}
+
+.details-field {
+  width: 400px;
+  height: 150px;
+}
 
 
+/*hours styles*/
 
-
+.hours-flex {
+  display: flex;
+  flex-direction: row;
+  /*align-content: stretch;*/
+}
