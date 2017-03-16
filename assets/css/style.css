@@ -35,21 +35,47 @@ body {
 .flex-grid {
   display: flex;
   flex-wrap: wrap;
-  /*height: 1419px;*/
   font-family:lato;
+}
 
+.meet-overlay {
+  position: absolute;
+  background-color: #F5A032;
+  color: white;
+  font-family:Oswald;
+  margin-left: 42%;
+  margin-top: 0%;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  padding: 15px 25px 15px 25px;
+  font-weight: 100;
+  font-size: 35px;
 }
 
 .grid-item {
   width: 50%;
 }
 
+.about-image {
+  background-color: #EAE3CC;
+}
+
 .about {
-  width: 40%;
   display: flex;
   margin-top: 125px;
   flex-direction: column;
-  
+}
+
+.about-inner-content {
+  margin-left: 40px;
+}
+
+.about-inner-cassandra {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+  align-items: flex-end;
 }
 
 .get-in-touch {
@@ -116,7 +142,7 @@ footer {
 }*/
 
 .footer-address {
-  font-family:Oswald,
+  font-family:Oswald;
   color: white;
 }
 
@@ -150,6 +176,7 @@ footer {
   background-color: #F5A032;
   padding-left: 15px;
   padding-right: 15px;
+
   color: white;
   font-family:Oswald;
   font-weight: 100;
