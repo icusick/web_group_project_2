@@ -3,11 +3,10 @@ body {
 }
 
 .header {
-  height: 100px;
+  height: 150px;
   width: 100%;
   padding: 10px;
-  margin-top: 20px;
-  background: lightgrey;
+  background: white;
   display: flex;
   position: fixed;
   top: 0;
@@ -22,9 +21,15 @@ body {
   justify-content: space-between;
   justify-content: space-around;
   flex-grow: 1;
-  text-decoration: none!impoprtant;
   align-items: center;
   font-family:lato;
+  font-size: 20px;
+
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
 }
 
 .hero {
@@ -76,6 +81,7 @@ body {
   flex-direction: column;
   /*justify-content: flex-start;*/
   align-items: flex-end;
+  text-align: right;
 }
 
 .get-in-touch {
