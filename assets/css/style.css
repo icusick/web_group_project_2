@@ -219,7 +219,6 @@ footer {
   /*justify-content: center;*/
 }
 
-/*why isn't stretch working anywhere!!!!!*/
 
 .hours-flex-item {
   display: flex;
@@ -257,6 +256,27 @@ footer {
   color: #f4a742;
 }
 
+/*index page*/
+
+.index-hours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*justify-content: space-between;*/
+  align-items: center;
+  height: 200px;
+  color: white;
+  background-color: #996666;
+  color: white;
+  font-family:lato;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.index-cakes {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
