@@ -222,13 +222,8 @@ footer {
 
 .hours-flex-item {
   display: flex;
-  /*align-content: stretch;*/
   align-items: center;
-  /*align-items: stretch;*/
-  /*align-content: center;*/
-  /*justify-content: stretch;*/
   width: 50%;
-  /*justify-content: center;*/
   flex-direction: column;
   height: 400px;
 }
@@ -258,6 +253,7 @@ footer {
 
 /*index page*/
 
+
 .index-hours {
   display: flex;
   flex-direction: row;
@@ -277,6 +273,85 @@ footer {
   display: flex;
   flex-direction: row;
 }
+
+.get-your-fix {
+  position: absolute;
+  background-color: #F5A032;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family:Oswald;
+  font-weight: 100;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-left: 550px;
+  margin-top: 0px;
+}
+
+.index-cake-flex {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+  height: 500px;
+}
+
+#cake-icon {
+  margin-bottom: 25px;
+  margin-left: 35px;
+}
+
+.index-cake-list {
+  background-color: #EAE3CC; 
+  /*font-family:lato;*/
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+  line-height: .7em;
+  text-align: center;
+}
+
+.index-cake-content {
+  margin-top: 100px;
+  font-family:lato;
+}
+
+.index-cake-content li {
+  text-decoration: none;
+}
+
+.index-about {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.baked-with-love {
+  color: #bbbdbf;
+  font-family: lato;
+  font-size: 45px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  line-height: .7em;
+  letter-spacing: -0.1em;
+}
+
+#heart-icon {
+  margin-top: 125px;
+  margin-bottom: -35px;
+}
+
+.scratch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
 
 
 
