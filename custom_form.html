@@ -3,29 +3,16 @@
 <head>
 	<title>Custom Form</title>
 	<link rel="stylesheet" href="./assets/css/style.css">
-  	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:300,400,700"
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:300,400,700"
           rel="stylesheet">
 </head>
 <body>
 
-<div class="header">
-    <div class="nav-link">
-      <a href="#">MENU</a>
-    </div>
-    <div class="nav-link">
-      <a href="#">CUSTOM</a>
-    </div>
-    <div class="nav-link logo">
-    	<img src="./assets/images/fix-logo.png">
-    </div>
-    <div class="nav-link">
-      <a href="#">ABOUT</a>
-    </div>
-    <div class="nav-link">
-      <a href="#">HOURS</a>
-    </div>
+<div class="nav-bar">
 </div>
+
 <img class="hero" src="./assets/images/fix-custom-hero.jpg">
+
 <div class="customize-flex">
 	<div class="customize-it">
 		<h1>Customize It</h1>
@@ -55,37 +42,24 @@
 		<h2 class="customize-labels">DESIGN YOUR CAKE AND EAT IT TOO</h2>
 		<P>Have and idea that you don't see listed? We are open to<br> your suggestions and creativity. Or is you aren't quite<br> sure what you need, we are here to guide you. Let us<br> know what you're thinking.</P>
 		<div class="custom-form">
-			<form method="POST" action="/#">
+			<form>
 				 NAME<br>
-  				<input type="text" name="name" class="field"><br>
+  				<input type="text" name="name" class="field" id="name"><br>
   				 PHONE NUMBER<br>
-  				<input type="text" name="phonenumber" class="field"><br>
+  				<input type="text" name="phonenumber" class="field" id="phonenumber"><br>
   				THE DETAILS<br>
-  				<input type="text" name="details" class="details-field"><br>
+  				<input type="text" name="details" class="details-field" id="details"><br>
   				<button>SUBMIT</button>
 			</form>
 		</div>
 	</div>
 </div>
 
-<footer class="footer">
-    <div class="footer-address">
-        <p>27 MARYLAND PLAZA</p>
-        <p>SAINT LOUIS, MO 63108</p>
-        <div class="footer-hours">
-           <p>TUES-SAT 7am-7pm, SUN 11am-4pm</p>
-        </div>
-    </div>
-    <img class="footer-image" src="assets/images/fix-logo-white.png">
-    <div class="footer-contact">
-       <div class="footer-social">
-        	<img src="assets/images/fix-fbicon.png">
-            <img src="assets/images/fix-twittericon.png">
-            <img src="assets/images/fix-instaicon.png">
-       </div>
-       <p>314-930-3103</p>
-    </div>
-</footer>
+<div class="bottom-bar">
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="./assets/js/main.js"></script>
 
 </body>
 </html>
