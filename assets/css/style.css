@@ -13,13 +13,17 @@ body {
   opacity: .9;
 }
 
-
-
 .scroll {
- height: 90px; 
+ height: 100px; 
 }
 
+.scroll .nav-link {
+  font-size: 15px;
+}
 
+.scroll img {
+  height: 90px;
+}
 
 .nav-link {
   width: 100px;
@@ -184,14 +188,24 @@ footer {
 }
 
 .customize-it {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*.custom-orders {
+  display: flex;
+  align-items: flex-start;
+}*/
+
+#cake-button {
   background-color: #F5A032;
   padding-left: 15px;
   padding-right: 15px;
   color: white;
   font-family:Oswald;
-  font-weight: 100;
-  display: flex;
-  flex-direction: row;
+  font-weight: 100;  
+  cursor: pointer;
 }
 
 #other-button {
@@ -201,6 +215,11 @@ footer {
   color: #F5A032;
   font-family:Oswald;
   font-weight: 100;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
 
 /*custom form page styles*/
@@ -218,6 +237,12 @@ footer {
   width: 400px;
   height: 150px;
 }
+
+.grow {
+  display: flex;
+  flex-grow: 1;
+}
+
 
 
 /*hours styles*/

@@ -14,8 +14,8 @@ $( "div.bottom-bar" )
 $(document).ready(function() {
 
 $(window).on("scroll", function() {
-	if ($(this).scrollTop() > 150) {
-		console.log("scrolling?")
+	if ($(this).scrollTop() > 270) {
+		// console.log("scrolling?")
 		$('.header').addClass('scroll');
 	} else {
 		$('.header').removeClass('scroll');
@@ -24,18 +24,38 @@ $(window).on("scroll", function() {
 
 
 
-$toggleCake = $("#cake-button");
+$toggleCakes = $("#cake-button");
 $toggleOther = $("#other-button");
+// $toggleCake.on('click', function(){
+// 	$(".cakes").toggle();
+// });
+// $toggleOther.on('click', function() {
+// 	$(".cakes").toggle();
+// })
+// $toggleOther.on('click', function() {
+// 	console.log('clicked');
+// 	$('.cakes').addClass('hidden');
+// 	$('.other-menu-items').removeClass('hidden');
+// });
+// $toggleCakes.on('click', function() {
+// 	console.log('clicked');
+// 	$('.other-menu-items').addClass('hidden');
+// 	$('.cakes').removeClass('hidden');
+// });
 
 
-$toggleCake.on('click', function(){
-	$(".cakes").toggle();
-});
 $toggleOther.on('click', function() {
-	$(".cakes").toggle();
-})
+		$('.cakes').fadeOut(400, function() {
+			$('.other-menu-items').fadeIn(400);
+		});
+});
 
-// the only other way i can think of doing this ^ is to add and remove visibility: hidden from css on click
+$toggleCakes.on('click', function() {
+		$('.other-menu-items').fadeOut(400, function() {
+			$('.cakes').fadeIn(400);
+		});
+});
+
 
 
 $('.custom-form').on('click', 'button', function(event){
@@ -48,7 +68,7 @@ $('.custom-form').on('click', 'button', function(event){
 	var theName = $("#name").val();
 	var phonenumber = $("#phonenumber").val();
 	var details = $("#details").val();
-	window.alert("Thank you " + $theName + " for you submission")
+	window.alert("Thank you " + theName + " for you submission")
 	$("#name").val(' ');
 	$("#phonenumber").val(' ');
 	$("#details").val(' ');
