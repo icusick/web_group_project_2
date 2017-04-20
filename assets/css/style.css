@@ -198,7 +198,7 @@ footer {
   align-items: flex-start;
 }*/
 
-#cake-button {
+.cake-button {
   background-color: #F5A032;
   padding-left: 15px;
   padding-right: 15px;
@@ -208,7 +208,7 @@ footer {
   cursor: pointer;
 }
 
-#other-button {
+.other-button {
   background-color: white;
   padding-left: 15px;
   padding-right: 15px;
@@ -247,7 +247,14 @@ footer {
 
 /*hours styles*/
 
-
+.hours-label {
+  position: absolute;
+  margin-left: 42%;
+  background-color: #F5A032;
+  color: white;
+  font-family:Oswald;
+  margin-top: 0px;
+}
 
 .hours-flex {
   display: flex;

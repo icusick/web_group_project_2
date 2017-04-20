@@ -1,5 +1,7 @@
 console.log("linked")
 
+$(document).ready(function() {
+
 var header = "<div class='header'> <div class='nav-link'> <a href=#>MENU</a> </div> <div class='nav-link'> <a href=#>CUSTOM</a> </div> <div class='nav-link logo'> <img src='./assets/images/fix-logo.png'> </div> <div class='nav-link'> <a href=#>ABOUT</a> </div> <div class='nav-link'> <a href=#>HOURS</a> </div> </div>"
 
 $("div.nav-bar")
@@ -10,8 +12,6 @@ var foot = "<footer class='footer'> <div class='footer-address'> <p>27 MARYLAND 
 
 $( "div.bottom-bar" )
   .html(foot);
-
-$(document).ready(function() {
 
 $(window).on("scroll", function() {
 	if ($(this).scrollTop() > 270) {
@@ -26,34 +26,23 @@ $(window).on("scroll", function() {
 
 $toggleCakes = $("#cake-button");
 $toggleOther = $("#other-button");
-// $toggleCake.on('click', function(){
-// 	$(".cakes").toggle();
-// });
-// $toggleOther.on('click', function() {
-// 	$(".cakes").toggle();
-// })
-// $toggleOther.on('click', function() {
-// 	console.log('clicked');
-// 	$('.cakes').addClass('hidden');
-// 	$('.other-menu-items').removeClass('hidden');
-// });
-// $toggleCakes.on('click', function() {
-// 	console.log('clicked');
-// 	$('.other-menu-items').addClass('hidden');
-// 	$('.cakes').removeClass('hidden');
-// });
+
 
 
 $toggleOther.on('click', function() {
 		$('.cakes').fadeOut(400, function() {
 			$('.other-menu-items').fadeIn(400);
 		});
+		$toggleOther.removeClass('other-button').addClass('cake-button');
+		$toggleCakes.addClass('other-button').removeClass('cake-button');
 });
 
 $toggleCakes.on('click', function() {
 		$('.other-menu-items').fadeOut(400, function() {
 			$('.cakes').fadeIn(400);
 		});
+		$toggleCakes.removeClass('other-button').addClass('cake-button');
+		$toggleOther.addClass('other-button').removeClass('cake-button');
 });
 
 
