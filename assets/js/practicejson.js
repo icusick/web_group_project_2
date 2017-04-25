@@ -18,9 +18,26 @@ $(document).ready(function() {
 		})
 		console.log(cakes)
 		console.log(other)
+
+		var stringifyCakes = cakes.map(function (el){
+			return "<div><h2 class='customize-labels'>" + el.name + "</h2><p>" + el.description + "</p></div>";
+		});
+		console.log(stringifyCakes)
+		
+		$( "div.cakes" )
+  		.html(stringifyCakes);
+
+		var stringifyOther = other.map(function(el){
+			return "<div><h2 class='customize-labels'>" + el.name + "</h2><p>" + el.description + "</p></div>";
+		});
+		console.log(stringifyOther)
+
+		$("div.other-menu-items")
+		.html(stringifyOther)
 	});
+
 	
 
-
+	// String(object) or JSON.stringify
 
 });
